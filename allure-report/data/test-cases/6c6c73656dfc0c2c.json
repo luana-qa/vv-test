@@ -1,0 +1,701 @@
+{
+  "uid" : "6c6c73656dfc0c2c",
+  "name" : "Preencher pesquisa com dados obrigatórios válidos",
+  "fullName" : "Preencher pesquisa com dados obrigatórios válidos",
+  "historyId" : "02f598b79bcfbec5970eec08c4164565",
+  "time" : {
+    "start" : 1618422276820,
+    "stop" : 1618422306104,
+    "duration" : 29284
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1618422276831,
+        "stop" : 1618422276833,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given que eu acesse a página da VV Test",
+      "time" : {
+        "start" : 1618422276889,
+        "stop" : 1618422287549,
+        "duration" : 10660
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"http://www.lourencodemonaco.com.br/vvtest/\")",
+        "time" : {
+          "start" : 1618422276892,
+          "stop" : 1618422283225,
+          "duration" : 6333
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "screenshot (\"Página acessada\")",
+        "time" : {
+          "start" : 1618422283225,
+          "stop" : 1618422287540,
+          "duration" : 4315
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And acesse o menu \"Pesquisa – QA\"",
+      "time" : {
+        "start" : 1618422287548,
+        "stop" : 1618422291586,
+        "duration" : 4038
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\"#menu-item-226 > a\")",
+        "time" : {
+          "start" : 1618422287551,
+          "stop" : 1618422287598,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "contains (\"Pesquisa – QA\")",
+        "time" : {
+          "start" : 1618422287598,
+          "stop" : 1618422287620,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1618422287620,
+          "stop" : 1618422287834,
+          "duration" : 214
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "--waiting for new page to load-- page load",
+        "time" : {
+          "start" : 1618422287833,
+          "stop" : 1618422287833,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "http://www.lourencodemonaco.com.br/vvtest/pesquisa/ new url",
+        "time" : {
+          "start" : 1618422291580,
+          "stop" : 1618422291580,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When eu preencher todos os campos obrigatórios",
+      "time" : {
+        "start" : 1618422291586,
+        "stop" : 1618422301883,
+        "duration" : 10297
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\"input[name=\"fname\"]\")",
+        "time" : {
+          "start" : 1618422291591,
+          "stop" : 1618422291624,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type (\"Luana\")",
+        "time" : {
+          "start" : 1618422291624,
+          "stop" : 1618422291983,
+          "duration" : 359
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get (\"input[name=\"lname\"]\")",
+        "time" : {
+          "start" : 1618422291983,
+          "stop" : 1618422292004,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type (\"Terense\")",
+        "time" : {
+          "start" : 1618422292004,
+          "stop" : 1618422292339,
+          "duration" : 335
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get (\"input[name=\"email\"]\")",
+        "time" : {
+          "start" : 1618422292340,
+          "stop" : 1618422292366,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type (\"luana.r.matias@gmail.com\")",
+        "time" : {
+          "start" : 1618422292366,
+          "stop" : 1618422292972,
+          "duration" : 606
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get (\"#nf-field-8\")",
+        "time" : {
+          "start" : 1618422292972,
+          "stop" : 1618422292994,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type (\"luana.r.matias@gmail.com\")",
+        "time" : {
+          "start" : 1618422292994,
+          "stop" : 1618422293684,
+          "duration" : 690
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get (\"input[name=\"phone\"]\")",
+        "time" : {
+          "start" : 1618422293684,
+          "stop" : 1618422293710,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type (\"(19) 98140-2803\")",
+        "time" : {
+          "start" : 1618422293710,
+          "stop" : 1618422294170,
+          "duration" : 460
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get (\"#nf-label-class-field-10-0\")",
+        "time" : {
+          "start" : 1618422294170,
+          "stop" : 1618422294193,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1618422294193,
+          "stop" : 1618422294382,
+          "duration" : 189
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get (\"#nf-field-11\")",
+        "time" : {
+          "start" : 1618422294382,
+          "stop" : 1618422294406,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select (\"mais de 5 anos\")",
+        "time" : {
+          "start" : 1618422294406,
+          "stop" : 1618422294666,
+          "duration" : 260
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get (\"#nf-field-12\")",
+        "time" : {
+          "start" : 1618422294666,
+          "stop" : 1618422294689,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select (\"Desafio\")",
+        "time" : {
+          "start" : 1618422294690,
+          "stop" : 1618422294943,
+          "duration" : 253
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get (\"#nf-label-class-field-13-0\")",
+        "time" : {
+          "start" : 1618422294943,
+          "stop" : 1618422294975,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1618422294975,
+          "stop" : 1618422295185,
+          "duration" : 210
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get (\"#nf-field-14\")",
+        "time" : {
+          "start" : 1618422295185,
+          "stop" : 1618422295212,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type (\"Javascript, Java, C#\")",
+        "time" : {
+          "start" : 1618422295212,
+          "stop" : 1618422295793,
+          "duration" : 581
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get (\"#nf-field-15\")",
+        "time" : {
+          "start" : 1618422295793,
+          "stop" : 1618422295822,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type (\"Me tornar uma profissional espelho, onde eu possa estimular as pessoas a trabalharem nessa área tão ampla e maravilhosa.\")",
+        "time" : {
+          "start" : 1618422295823,
+          "stop" : 1618422297849,
+          "duration" : 2026
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "screenshot (\"Campos preenchidos\")",
+        "time" : {
+          "start" : 1618422297849,
+          "stop" : 1618422301528,
+          "duration" : 3679
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get (\"#nf-field-16\")",
+        "time" : {
+          "start" : 1618422301528,
+          "stop" : 1618422301617,
+          "duration" : 89
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1618422301617,
+          "stop" : 1618422301874,
+          "duration" : 257
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST http://www.lourencodemonaco.com.br/vvtest/wp-admin/admin-ajax.php",
+        "time" : {
+          "start" : 1618422301873,
+          "stop" : 1618422301873,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 26,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then deve ser direcionado para uma página de sucesso",
+      "time" : {
+        "start" : 1618422301883,
+        "stop" : 1618422306104,
+        "duration" : 4221
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\".entry-content\")",
+        "time" : {
+          "start" : 1618422301886,
+          "stop" : 1618422304369,
+          "duration" : 2483
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "expected **<div.entry-content>** to contain **Your form has been successfully submitted.** assert",
+        "time" : {
+          "start" : 1618422304369,
+          "stop" : 1618422304369,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "screenshot (\"Validação do envio\")",
+        "time" : {
+          "start" : 1618422304369,
+          "stop" : 1618422306101,
+          "duration" : 1732
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ccc50d1afb1032f9",
+      "name" : "Página acessada",
+      "source" : "ccc50d1afb1032f9.png",
+      "type" : "image/png",
+      "size" : 614613
+    }, {
+      "uid" : "cac59460cd19aa46",
+      "name" : "Campos preenchidos",
+      "source" : "cac59460cd19aa46.png",
+      "type" : "image/png",
+      "size" : 193217
+    }, {
+      "uid" : "7efdee09f110abf6",
+      "name" : "Validação do envio",
+      "source" : "7efdee09f110abf6.png",
+      "type" : "image/png",
+      "size" : 65772
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 41,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Pesquisa com o QA Como um recrutador"
+  }, {
+    "name" : "feature",
+    "value" : "Pesquisa com o QA Como um recrutador"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c6c73656dfc0c2c.json",
+  "parameterValues" : [ ]
+}

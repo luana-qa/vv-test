@@ -1,0 +1,11 @@
+[ {
+  "uid" : "6c6c73656dfc0c2c",
+  "name" : "Preencher pesquisa com dados obrigatórios válidos",
+  "time" : {
+    "start" : 1618422276820,
+    "stop" : 1618422306104,
+    "duration" : 29284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

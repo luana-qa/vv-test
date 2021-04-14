@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Pesquisa com o QA Como um recrutador",
+    "children" : [ {
+      "name" : "Preencher pesquisa com dados obrigatórios válidos",
+      "uid" : "6c6c73656dfc0c2c",
+      "parentUid" : "2800d40f6a491c9dca7fb94062257800",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618422276820,
+        "stop" : 1618422306104,
+        "duration" : 29284
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2800d40f6a491c9dca7fb94062257800"
+  } ]
+}

@@ -1,0 +1,18 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Preencher pesquisa com dados obrigatórios válidos",
+    "uid" : "6c6c73656dfc0c2c",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618422276820,
+      "stop" : 1618422306104,
+      "duration" : 29284
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

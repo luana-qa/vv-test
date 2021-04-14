@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "allure": "0.0.0",
     "cypress": "^6.8.0",
     "cypress-cucumber-preprocessor": "^4.0.3"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "cypress run"
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.5.0"
   },
-						
+  "scripts": {
+    "test": "cypress run --config video=true --env allure=true"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luana-qa/vv-test.git"
@@ -24,5 +26,5 @@
   "homepage": "https://github.com/luana-qa/vv-test#readme",
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/support/steps"
-}
+  }
 }
